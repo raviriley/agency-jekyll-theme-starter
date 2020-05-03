@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: jekyll-agency
+remote_theme: raviriley/jekyll-agency
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/jekyll-agency-demo" # the subpath of your site, e.g. /blog
@@ -22,7 +22,7 @@ baseurl: "/jekyll-agency-demo" # the subpath of your site, e.g. /blog
 title      : Agency Jekyll 
 email      : your-email@example.com #this is also the email contact forms will go to
 description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
-author     : Ravi Riley
+author     : Your Name
 #logo:     #optional, defaults to site title
   #path: \assets\img\logos\creative-market.jpg
   #height: 60 #height in px, defaults to 52px
