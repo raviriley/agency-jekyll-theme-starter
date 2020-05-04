@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
+#line 4 for gem-based theme, line 5 for remote theme.
 #gem "jekyll-agency"
-
-# If you do not want to use GitHub Pages, uncomment the line above and
-# comment out the lines below, then run bundle update.
-gem "github-pages", group: :jekyll_plugins
 gem "jekyll-remote-theme"
+
+# If you do not want to use GitHub Pages, comment out the line below, then run bundle update.
+gem "github-pages", group: :jekyll_plugins
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
@@ -19,4 +19,4 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
+gem "wdm", ">= 0.1.0" if Gem.win_platform?
