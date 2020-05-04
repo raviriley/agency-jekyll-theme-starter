@@ -4,23 +4,23 @@
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
-#
 # This file is *NOT* reloaded automatically when you use 'bundle exec jekyll serve'. 
 # If you change this file, please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# you will see them accessed via 
+# {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be
+# accessible in the templates via {{ site.myvariable }}.
 
-#remote_theme: raviriley/jekyll-agency
-theme: jekyll-agency
+remote_theme: raviriley/agency-jekyll-theme
+#theme: jekyll-agency
 
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/jekyll-agency-demo" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : Agency Jekyll Theme
+title      : Agency Jekyll Theme Demo
 email      : your-email@example.com #this is also the email contact forms will go to
 description: "Agency Bootstrap theme converted to a Jekyll theme, plus new features: Google Analytics, Markdown support, custom pages, and more!"
 author     : Your Name
@@ -35,3 +35,6 @@ collections:
   portfolio:
 
 markdown: kramdown
+
+plugins:
+  - jekyll-remote-theme
