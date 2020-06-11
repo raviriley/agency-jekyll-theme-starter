@@ -2,7 +2,7 @@ header:
     title: Welcome to our Studio!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#services" # "#{section}" or "URL/page link"
 
 services:
     title: "Services"
