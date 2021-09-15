@@ -1,12 +1,12 @@
-#after any changes to the Gemfile, execute bundle update!
 source "https://rubygems.org"
-gem "jekyll-remote-theme"
 
-# If you do not want to use GitHub Pages, comment out the line below, then run bundle update.
-#gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 3.9"
+gem "kramdown-parser-gfm", "~> 1.1.0"
+gem "webrick", "~> 1.7"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-remote-theme", "~> 0.4.3"
 end
 
 # Delete the following lines if not on Windows: 
